@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew compileKotlinIosSimulatorArm64:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
