@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(./gradlew compileKotlinIosSimulatorArm64:*)"
+      "Bash(./gradlew compileKotlinIosSimulatorArm64:*)",
+      "Bash(find:*)",
+      "Bash(./gradlew compileKotlinAndroid:*)",
+      "Bash(./gradlew:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
