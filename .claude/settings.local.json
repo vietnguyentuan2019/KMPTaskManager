@@ -8,7 +8,22 @@
       "Bash(git init:*)",
       "Bash(git config:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push -u https://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@github.com/vietnguyentuan2019/KMPTaskManager.git main --force)",
+      "Bash(git push:*)",
+      "Bash(curl:*)",
+      "Bash(gh release create:*)",
+      "WebSearch",
+      "WebFetch(domain:klibs.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:central.sonatype.org)",
+      "Bash(brew install:*)",
+      "Bash(gpg --list-keys:*)",
+      "Bash(gpg:*)",
+      "Bash(zip:*)"
     ],
     "deny": [],
     "ask": []
