@@ -23,7 +23,11 @@
       "Bash(brew install:*)",
       "Bash(gpg --list-keys:*)",
       "Bash(gpg:*)",
-      "Bash(zip:*)"
+      "Bash(zip:*)",
+      "Bash(git update-ref:*)",
+      "Bash(gh release list:*)",
+      "WebFetch(domain:central.sonatype.com)",
+      "Bash(unzip:*)"
     ],
     "deny": [],
     "ask": []
