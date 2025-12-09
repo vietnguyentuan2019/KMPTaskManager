@@ -27,7 +27,8 @@
       "Bash(git update-ref:*)",
       "Bash(gh release list:*)",
       "WebFetch(domain:central.sonatype.com)",
-      "Bash(unzip:*)"
+      "Bash(unzip:*)",
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "ask": []
