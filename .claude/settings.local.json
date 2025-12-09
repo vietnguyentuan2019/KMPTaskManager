@@ -28,7 +28,10 @@
       "Bash(gh release list:*)",
       "WebFetch(domain:central.sonatype.com)",
       "Bash(unzip:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(git show-ref:*)",
+      "Bash(git fetch:*)",
+      "Bash(git rev-parse:*)"
     ],
     "deny": [],
     "ask": []
