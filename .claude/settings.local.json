@@ -34,7 +34,13 @@
       "Bash(git rev-parse:*)",
       "Bash(wc:*)",
       "Bash(grep:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(echo \"=== Verification 1: Check no hardcoded workers ===\" grep -r \"when \\(workerClassName\\)\" kmptaskmanager/src/ --include=\"*.kt\")",
+      "Bash(echo -e \"\\\\n=== Verification 2: InfoPlistReader usage ===\" grep -r \"InfoPlistReader\" kmptaskmanager/src/ --include=\"*.kt\")",
+      "Bash(echo -e \"\\\\n=== Verification 3: Factory injection ===\" grep -r \"AndroidWorkerFactory by inject\" kmptaskmanager/src/ --include=\"*.kt\" grep -r \"IosWorkerFactory by inject\" kmptaskmanager/src/ --include=\"*.kt\")",
+      "Bash(echo:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)"
     ],
     "deny": [],
     "ask": []
